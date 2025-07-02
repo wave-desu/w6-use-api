@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Card, Image, Row, Col } from 'antd';
+import './App.css';
+
 function App() {
   const [data, setData] = useState([])
   useEffect(() => {
